@@ -155,7 +155,8 @@ client.on("message", message => {
 	  .addField('-roles', `لمعرفة الرتب الي في السيرفر`)
       .addField('-avatar', `يجبلك الافتار حقك يعني صورة حسابك`)
       .addField('-2avatar', `الافتار عن طريق المنشن`)
-	  .addField('-server', `يجبلك معلومات السيرفر`)
+          .addField('-play', `لتشغيل الاغاني `)
+          .addField('-server', `يجبلك معلومات السيرفر`)
 	  .addField('-id', `يجبلك الملف الشخصي حقك`)
 	  .addField('-clear', `البوت يمسح  100 رسايل`)
 	  .addField('-say', `البوت يكرر الكلام الي انت تقوله`)
@@ -324,9 +325,6 @@ var cats = [
 "https://vignette1.wikia.nocookie.net/houseofnight/images/8/8b/Cats.jpg/revision/latest?cb=20130812053537",
 "https://s-media-cache-ak0.pinimg.com/originals/f0/3b/76/f03b7614dfadbbe4c2e8f88b69d12e04.jpg",
 "http://www.rd.com/wp-content/uploads/sites/2/2016/04/15-cat-wants-to-tell-you-attention.jpg"
-
-
-
 ]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
@@ -436,7 +434,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`in 500 owner n3k4a  server -help`,"https://www.twitch.tv/ninja")
+  client.user.setGame(`in 54 server -help`,"https://www.twitch.tv/ninja")
    client.user.setStatus("dnd")
 });
 
@@ -632,7 +630,7 @@ client.on("message", message => {
 
 
 const cuttweet = [
-     'كت تويت ‏- تخيّل لو أنك سترسم شيء وحيد فيصبح حقيقة، ماذا سترسم؟',
+     'كت تويت ‏- تخيّل لو أنك سترسم شيء وحيد في����بح حقيقة، ماذا سترسم؟',
      'كت تويت ‏- أكثر شيء يُسكِت الطفل برأيك؟',
      'كت تويت ‏- الحرية لـ ... ؟',
      'كت تويت ‏- قناة الكرتون المفضلة في طفولتك؟',
@@ -652,7 +650,7 @@ const cuttweet = [
      '‏كت تويت|كم مره خسرت شخص تحبه؟.',
      '‏كت تويت|كيف تتعامل مع الاشخاص السلبيين ؟',
      '‏كت تويت|كلمة تشعر بالخجل اذا قيلت لك؟',
-     '‏كت تويت|هل تُخفي نجاحك أو كت كت تويت | هل تخفي نجاحك أو أشيائك الجميلة خوفاً من العين والحسد؟',
+     '‏كت تويت|هل تُخفي نجاحك ��و كت ك�� تويت | هل تخفي نجاحك أو أشيائك الجميلة خوفاً من العين والحسد؟',
      '‏كت تويت|جسمك اكبر من عٌمرك او العكسّ ؟!',
      '‏كت تويت|أقوى كذبة مشت عليك ؟',
      '‏كت تويت|تتأثر بدموع شخص يبكي قدامك قبل تعرف السبب ؟',
@@ -694,7 +692,7 @@ client.on("guildMemberRemove", member => {
     icon_url: member.user.avatarURL
   },
   title: guild.name,
-  description: ' *** لا تنسى تسكر الباب وراك :( *** ..',
+  description: ' *** لا تنسى تسك�� الباب وراك :( *** ..',
 }}).catch(console.error);
   }
 );
@@ -863,7 +861,7 @@ client.on('message', message => {
 
 message.channel.sendEmbed(avatar)
     }
-});
+})
 const dateFormat = require('dateformat');//npm i dateformat
 const client = new Discord.Client();
 const ytdl = require('ytdl-core');
