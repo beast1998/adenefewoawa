@@ -9,14 +9,6 @@ client.on('ready', () => {
 
 
 
-
-
-
-
-
-
-
-
 console.log('Premium Bot™');
 client.on('ready', () => {
   console.log(`im redey`);
@@ -87,14 +79,6 @@ const x5bz4 = [
 
 
 
-
-
-
-
-
-
-
-
 client.on('message', message => {
     var args = message.content.split(/[ ]+/)
     if(message.content.includes('discord.gg')){
@@ -135,11 +119,6 @@ client.on('message', msg => {
 
 
 
-
-
-
-
-
 client.on("message", message => {
  if (message.content === "-help") {
   const embed = new Discord.RichEmbed()
@@ -173,12 +152,6 @@ client.on("message", message => {
 
 
 
-
-
-
-
-
-
 client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
@@ -196,10 +169,6 @@ client.on("message", message => {
 
 
 
-
-
-
-
 client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
@@ -210,11 +179,6 @@ client.on("message", message => {
 
  }
 });
-
-
-
-
-
 
 
 
@@ -239,14 +203,7 @@ function hasRole(mem, role) {
   }
   
   
-  
-
-
-
-
-
-
-
+ 
 
 client.on('message', message => {
      if (message.content === "-كم") {
@@ -278,13 +235,6 @@ client.on('message', message => {
   message.channel.sendEmbed(embed);
     }
 });
-
-
-
-
-
-
-
 
 
 
@@ -331,15 +281,6 @@ var cats = [
 message.channel.sendEmbed(cat);
     }
 });
-
-
-
-
-
-
-
-
-
 
 
 
@@ -512,22 +453,6 @@ client.on('message', message => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Client.on('message', message => {
 if (message.content.split(' ')[0] == '-bc')
  message.guild.members.forEach( member => {
@@ -562,13 +487,6 @@ Client.on("message", message => {
 
 
 
-
-
-
-
-
-
-
 client.on('message', msg => {
   if (msg.author.bot) return;
   if (!msg.content.startsWith(prefix)) return;
@@ -588,8 +506,6 @@ if (command == "غرد") {
     msg.delete();
   }
 });
-
-
 
 
 
@@ -618,10 +534,6 @@ client.on("message", message => {
 
      
 });
-
-
-
-
 
 
 
@@ -671,11 +583,6 @@ message.channel.sendMessage({embed: {
 
 
 
-
-
-
-
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -706,12 +613,6 @@ client.on("guildMemberAdd", member => {
 }}).catch(console.error);
   }
 );
-
-
-
-
-
-
 
 
 
@@ -750,10 +651,6 @@ if (command == "embed") {
 
 
 
-
-
-
-
 client.on('message', message => {
    if (message.content === "-id") {
    let embed = new Discord.RichEmbed()
@@ -768,8 +665,6 @@ client.on('message', message => {
   message.channel.sendEmbed(embed);
     }
 });
-
-
 
 
 
@@ -795,8 +690,6 @@ client.on("message", message => {
                             }
                           }
 });
-
-
 
 
 
@@ -831,16 +724,6 @@ client.on('message', message => {
 
 
 
-
-
-
-
-
-
-
-
-
-
   var prefix = "-";
     client.on('message', message => {
     if(message.content.startsWith(prefix + '2avatar')) {
@@ -859,14 +742,6 @@ client.on('message', message => {
 message.channel.sendEmbed(avatar)
     }
 });
-
-
-
-
-
-
-
-
 
 
 
