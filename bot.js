@@ -746,4 +746,4 @@ message.channel.sendEmbed(avatar)
 
 
 
-client.login("");
+client.login(process.env.BOT_TOKEN);
