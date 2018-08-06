@@ -124,7 +124,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot™:heart: جميع 2018 لــبوت')
-      .setFooter('اوامر الادمنيه')
+      .setFooter('اوامر الادمنينه')
 	  .addField('-bc', `لخاصية البرودكستات`)
       .setFooter('======================================================')
       .setFooter('اوامر الاعضاء')
@@ -157,7 +157,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot™:heart: جميع 2018 لــبوت')
-      .addField('شكرا لك لاستخدامك ل بروميوم بوت', `https://discordapp.com/oauth2/authorize?client_id=475966147624173568&permissions=8&scope=bot`)
+      .addField('شكرا لك لاستخدامك ل بروميوم بوت', `http://premium-bot.bitballoon.com`)
   message.author.send({embed});
 
  }
