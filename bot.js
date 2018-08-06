@@ -17,8 +17,6 @@ client.on('ready', () => {
 
 
 
-
-
 console.log('Premium Bot™');
 client.on('ready', () => {
   console.log(`im redey`);
