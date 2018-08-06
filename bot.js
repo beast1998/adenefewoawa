@@ -871,4 +871,4 @@ message.channel.sendEmbed(avatar)
 
 
 
-client.login("");
+client.login("NDc1OTY2MTQ3NjI0MTczNTY4.Dkntlw.R5yKa_GIOrblmXRiP3L2CDgyCew");
