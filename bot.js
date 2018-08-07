@@ -126,30 +126,27 @@ client.on("message", message => {
  }
 });
 
-
-client.on("message", message => {
+ient.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot™:heart: جميع 2018 لــبوت')
-      .addField('شكرا لك لاستخدامك ل بروميوم بوت', `https://discordapp.com/oauth2/authorize?client_id=475966147624173568&permissions=8&scope=bot`)
+      .addField('شكرا لك لاستخدامك ل بروميوم بوت', `http://premium-bot.bitballoon.com`)
   message.author.send({embed});
 
  }
 });
-
 
 client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')  
-      .addField('سيرفر الدعم الفني', `  https://discord.gg/dFCBGX6  `)
+      .addField('سيرفر الدعم الفني', `  https://discord.gg/kH2tWAr `)
   message.author.send({embed});
 
  }
 });
-
 
 
 const TOKEN = "";
@@ -171,15 +168,7 @@ function hasRole(mem, role) {
 
   }
   
-  
-  
-
-
-
-
-
-
-
+ 
 
 client.on('message', message => {
      if (message.content === "-كم") {
@@ -190,6 +179,7 @@ client.on('message', message => {
   message.channel.sendEmbed(embed);
     }
 });
+
 
 
 client.on('message', message => {
@@ -204,6 +194,10 @@ client.on('message', message => {
   message.channel.sendEmbed(embed);
     }
 });
+
+
+
+
 
 client.on('message', message => {
     if (message.content === "-roles") {
@@ -237,11 +231,10 @@ message.channel.sendEmbed(cat);
     }
 });
 
+
+
+
 const Client = new Discord.Client();
-
-
-
-
 
 
 
@@ -280,20 +273,14 @@ const Client = new Discord.Client();
               message.channel.sendFile("./WLC.png");
             }
          });
-         
-         
-         
-         
-         
-         
-         
-         
+  
          
                  client.on('message', message => {
             if (message.content === 'ترحيب') {
               message.channel.sendFile("./1.jpg");
             }
          });
+
 
 
 client.on('ready', () => {
@@ -323,8 +310,6 @@ client.on('ready', () => {
 
 
 
-
-
 client.on("message", message => {
      if (message.content === "-kick") {
          if(!message.channel.guild) return message.reply('** This command only for servers **');
@@ -342,6 +327,9 @@ client.on("message", message => {
      }
 });
 
+
+
+
 client.on('message', message => {
     if (message.content.startsWith("-avatar")) {
         var mentionned = message.mentions.users.first();
@@ -358,7 +346,6 @@ client.on('message', message => {
       message.channel.sendEmbed(embed);
     }
 });
-
 
 
 Client.on('message', message => {
@@ -394,6 +381,14 @@ Client.on("message", message => {
 
 
 
+
+
+
+
+
+
+
+
 client.on('message', msg => {
   if (msg.author.bot) return;
   if (!msg.content.startsWith(prefix)) return;
@@ -413,6 +408,9 @@ if (command == "غرد") {
     msg.delete();
   }
 });
+
+
+
 
 
 
@@ -440,6 +438,11 @@ client.on("message", message => {
 
      
 });
+
+
+
+
+
 
 
 
@@ -487,6 +490,12 @@ message.channel.sendMessage({embed: {
 
 
 
+
+
+
+
+
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -520,6 +529,14 @@ client.on("guildMemberAdd", member => {
 
 
 
+
+
+
+
+
+
+
+
 var prefix = "-";
 
 client.on('message', message => {
@@ -549,6 +566,11 @@ if (command == "embed") {
 
 
 });
+
+
+
+
+
 
 
 
@@ -646,6 +668,7 @@ message.channel.sendEmbed(avatar)
     }
 })
 const dateFormat = require('dateformat');//npm i dateformat
+const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 const moment = require('moment');
 const request = require('request');
@@ -654,8 +677,6 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 /*
-////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
-////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
 ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
 ////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\
 */
@@ -946,8 +967,4 @@ client.on('message', function(message) {
 		return str.toLowerCase().indexOf('youtube.com') > -1;
 	}
 });
-
-
-
-
 client.login(process.env.BOT_TOKEN);
