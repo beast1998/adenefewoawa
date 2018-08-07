@@ -3,8 +3,6 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-
-
 console.log('Premium Bot™');
 client.on('ready', () => {
   console.log(`im redey`);
@@ -77,8 +75,6 @@ client.on('message', message => {
     return message.reply(`** No Invite Links للاسف ما تقدر تنشر :) ههههههههههايي 😠 ! **`)
     }
 });
-
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -88,14 +84,11 @@ client.on('message', msg => {
     msg.reply('لم يتم اضافة القوانين رقم 2 او ق2 لعدم وجود قوانين كثير اذا كنت تبي تدعمنا او توصل لصاحب البوت واعطائنا افكارك تواصل اكتب الامر -support');
   }
 });
-
-
 client.on('message', msg => {
   if (msg.content === 'مين يلعب؟') {
     msg.reply('انا العب ولا شي :)');
   }
 });
-
 client.on("message", message => {
  if (message.content === "-help") {
   const embed = new Discord.RichEmbed()
@@ -122,10 +115,8 @@ client.on("message", message => {
       .addField('-embed', `البوت يكرر الكلام الي قلته ب امبد`)
 	  .addField('-cat', `يجبلك صورة بسه`)
   message.author.send({embed});
-
  }
 });
-
 ient.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
@@ -147,8 +138,6 @@ client.on("message", message => {
 
  }
 });
-
-
 const TOKEN = "";
 
 function commandIs(str, msg){
@@ -168,8 +157,6 @@ function hasRole(mem, role) {
 
   }
   
- 
-
 client.on('message', message => {
      if (message.content === "-كم") {
 		 if(!message.channel.guild) return;
@@ -194,11 +181,6 @@ client.on('message', message => {
   message.channel.sendEmbed(embed);
     }
 });
-
-
-
-
-
 client.on('message', message => {
     if (message.content === "-roles") {
 		if(!message.channel.guild) return;
@@ -209,8 +191,6 @@ client.on('message', message => {
         message.channel.sendEmbed(embed);
     }
 });
-
-
    var prefix = "-";
 var cats = [
 
@@ -230,10 +210,6 @@ var cats = [
 message.channel.sendEmbed(cat);
     }
 });
-
-
-
-
 const Client = new Discord.Client();
 
 
@@ -243,9 +219,6 @@ const Client = new Discord.Client();
               message.channel.sendFile("./tyt.png");
             }
          });
-
-
-
 
          client.on('message', message => {
             if (message.content === 'ق1') {
@@ -281,8 +254,6 @@ const Client = new Discord.Client();
             }
          });
 
-
-
 client.on('ready', () => {
    console.log(`----------------`);
       console.log(`PANDA BOT STARTED`);
@@ -308,8 +279,6 @@ client.on('ready', () => {
     }
 });
 
-
-
 client.on("message", message => {
      if (message.content === "-kick") {
          if(!message.channel.guild) return message.reply('** This command only for servers **');
@@ -317,17 +286,12 @@ client.on("message", message => {
      }
 });
 
-
-
-
 client.on("message", message => {
      if (message.content === "-ban") {
          if(!message.channel.guild) return message.reply('** This command only for servers **');
         message.reply("bla bla")
      }
 });
-
-
 
 
 client.on('message', message => {
@@ -346,8 +310,6 @@ client.on('message', message => {
       message.channel.sendEmbed(embed);
     }
 });
-
-
 Client.on('message', message => {
 if (message.content.split(' ')[0] == '-bc')
  message.guild.members.forEach( member => {
@@ -434,16 +396,8 @@ client.on("message", message => {
           text: "© Premium Bot ™."
         }
       }}).then(msg => {msg.delete(3000)});
-                          }
-
-     
+                          }     
 });
-
-
-
-
-
-
 
 
 const cuttweet = [
@@ -487,15 +441,6 @@ message.channel.sendMessage({embed: {
 }});
 };
 });
-
-
-
-
-
-
-
-
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -526,17 +471,6 @@ client.on("guildMemberAdd", member => {
 }}).catch(console.error);
   }
 );
-
-
-
-
-
-
-
-
-
-
-
 var prefix = "-";
 
 client.on('message', message => {
@@ -567,13 +501,6 @@ if (command == "embed") {
 
 });
 
-
-
-
-
-
-
-
 client.on('message', message => {
    if (message.content === "-id") {
    let embed = new Discord.RichEmbed()
@@ -588,10 +515,6 @@ client.on('message', message => {
   message.channel.sendEmbed(embed);
     }
 });
-
-
-
-
 
 client.on("message", message => {
     var prefix = "-";
@@ -615,9 +538,6 @@ client.on("message", message => {
                             }
                           }
 });
-
-
-
 
 
 var prefix = "-";
@@ -965,8 +885,12 @@ client.on('message', function(message) {
 
 	function isYoutube(str) {
 		return str.toLowerCase().indexOf('youtube.com') > -1;
+
 	}
+
 });
+
+
 
 
 
