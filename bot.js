@@ -60,7 +60,7 @@ const x5bz4 = [
    '*** مريم : ماذا تريد ان تسمع ***',
    '*** مريم : اضغط على الرابط اهداء مني لك | https://www.youtube.com/watch?v=hvSiuQccmtg ***',
    '*** احد ما خرج من المنزل ***',
-   '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدنا في نشر البوت وادخل هذا السيرفر https://discord.gg/dqVFqrN ***'
+   '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدنا في نشر البوت وادخل هذا السيرفر https://discord.gg/kH2tWAr ***'
 ]
  client.on('message', message => {
  if (message.content.startsWith('-مريم')) {
@@ -167,7 +167,7 @@ client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')  
+      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2018 لــبوت')  
       .addField('سيرفر الدعم الفني', ` https://discord.gg/kH2tWAr  `)
   message.author.send({embed});
 
@@ -338,7 +338,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`in 190 serverby:n3k4a   -help`,"http://twitch.tv/y04zgamer")
+  client.user.setGame(`in 190 serverby:n3k4a   -help`,"https://www.twitch.tv/ninja")
    client.user.setStatus("dnd")
 });
 
