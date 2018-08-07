@@ -1,22 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-
-
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-
-
-
-
-
-
-
-
-
-
-
 
 
 console.log('Premium Bot™');
@@ -83,20 +69,6 @@ const x5bz4 = [
   }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 client.on('message', message => {
     var args = message.content.split(/[ ]+/)
     if(message.content.includes('discord.gg')){
@@ -105,13 +77,6 @@ client.on('message', message => {
     return message.reply(`** No Invite Links للاسف ما تقدر تنشر :) ههههههههههايي 😠 ! **`)
     }
 });
-
-
-
-
-
-
-
 
 
 client.on('ready', () => {
@@ -125,22 +90,11 @@ client.on('message', msg => {
 });
 
 
-
-
-
 client.on('message', msg => {
   if (msg.content === 'مين يلعب؟') {
     msg.reply('انا العب ولا شي :)');
   }
 });
-
-
-
-
-
-
-
-
 
 client.on("message", message => {
  if (message.content === "-help") {
@@ -173,14 +127,6 @@ client.on("message", message => {
 });
 
 
-
-
-
-
-
-
-
-
 client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
@@ -193,15 +139,6 @@ client.on("message", message => {
 });
 
 
-
-
-
-
-
-
-
-
-
 client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
@@ -212,12 +149,6 @@ client.on("message", message => {
 
  }
 });
-
-
-
-
-
-
 
 
 
@@ -261,13 +192,6 @@ client.on('message', message => {
 });
 
 
-
-
-
-
-
-
-
 client.on('message', message => {
      if (message.content === "-ping") {
       const embed = new Discord.RichEmbed()
@@ -281,17 +205,6 @@ client.on('message', message => {
     }
 });
 
-
-
-
-
-
-
-
-
-
-
-
 client.on('message', message => {
     if (message.content === "-roles") {
 		if(!message.channel.guild) return;
@@ -302,16 +215,6 @@ client.on('message', message => {
         message.channel.sendEmbed(embed);
     }
 });
-
-
-
-
-
-
-
-
-
-
 
 
    var prefix = "-";
@@ -333,17 +236,6 @@ var cats = [
 message.channel.sendEmbed(cat);
     }
 });
-
-
-
-
-
-
-
-
-
-
-
 
 const Client = new Discord.Client();
 
@@ -369,9 +261,6 @@ const Client = new Discord.Client();
          });
 
 
-
-
-
          client.on('message', message => {
             if (message.content === 'السلام عليكم') {
               message.channel.sendFile("./5bz.png");
@@ -379,23 +268,11 @@ const Client = new Discord.Client();
          });
 
 
-
-
-
-
-
-
          client.on('message', message => {
             if (message.content === 'حشيش') {
               message.channel.sendFile("./2.png");
             }
          });
-
-
-
-
-
-
 
 
          client.on('message', message => {
@@ -419,13 +296,6 @@ const Client = new Discord.Client();
          });
 
 
-
-
-
-
-
-
-
 client.on('ready', () => {
    console.log(`----------------`);
       console.log(`PANDA BOT STARTED`);
@@ -436,12 +306,6 @@ client.on('ready', () => {
   client.user.setGame(`in 54 server -help`,"https://www.twitch.tv/ninja")
    client.user.setStatus("dnd")
 });
-
-
-
-
-
-
 
 
  client.on('message', message => {
@@ -456,13 +320,6 @@ client.on('ready', () => {
 
     }
 });
-
-
-
-
-
-
-
 
 
 
@@ -485,16 +342,6 @@ client.on("message", message => {
      }
 });
 
-
-
-
-
-
-
-
-
-
-
 client.on('message', message => {
     if (message.content.startsWith("-avatar")) {
         var mentionned = message.mentions.users.first();
@@ -511,22 +358,6 @@ client.on('message', message => {
       message.channel.sendEmbed(embed);
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -563,14 +394,6 @@ Client.on("message", message => {
 
 
 
-
-
-
-
-
-
-
-
 client.on('message', msg => {
   if (msg.author.bot) return;
   if (!msg.content.startsWith(prefix)) return;
@@ -590,9 +413,6 @@ if (command == "غرد") {
     msg.delete();
   }
 });
-
-
-
 
 
 
@@ -620,11 +440,6 @@ client.on("message", message => {
 
      
 });
-
-
-
-
-
 
 
 
@@ -672,12 +487,6 @@ message.channel.sendMessage({embed: {
 
 
 
-
-
-
-
-
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -711,14 +520,6 @@ client.on("guildMemberAdd", member => {
 
 
 
-
-
-
-
-
-
-
-
 var prefix = "-";
 
 client.on('message', message => {
@@ -748,11 +549,6 @@ if (command == "embed") {
 
 
 });
-
-
-
-
-
 
 
 
@@ -829,18 +625,6 @@ client.on('message', message => {
         message.channel.sendEmbed(server)
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   var prefix = "-";
