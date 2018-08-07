@@ -646,7 +646,6 @@ message.channel.sendEmbed(avatar)
     }
 })
 const dateFormat = require('dateformat');//npm i dateformat
-const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 const moment = require('moment');
 const request = require('request');
