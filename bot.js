@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 
 
-console.log('mariam ra7t tmot al nas');
+console.log('n3k4a is one');
 client.on('ready', () => {
   console.log(`im redey`);
 });
@@ -118,7 +118,7 @@ client.on("message", message => {
  if (message.content === "-help") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')
+      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2018 لــبوت')
       .setFooter('اوامر الادمنيه')
 	  .addField('-bc', `لخاصية البرودكستات`)
       .setFooter('======================================================')
@@ -329,8 +329,6 @@ const Client = new Discord.Client();
 
 
 
-
-
 client.on('ready', () => {
    console.log(`----------------`);
       console.log(`PANDA BOT STARTED`);
@@ -338,7 +336,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`in 190 serverby:n3k4a   -help`,"https://www.twitch.tv/ninja")
+  client.user.setGame(`in 199 serverby n:n3k4a   -help`,"https://www.twitch.tv/ninja")
    client.user.setStatus("dnd")
 });
 
